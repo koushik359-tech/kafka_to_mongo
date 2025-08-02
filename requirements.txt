@@ -1,0 +1,9 @@
+confluent_kafka
+pandas
+dotenv
+httpx
+cachetools
+authlib
+fastavro
+google-cloud-pubsub
+attrs
