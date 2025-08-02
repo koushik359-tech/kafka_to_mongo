@@ -83,6 +83,7 @@ while True:
     
     value=msg.value()
     print("Hello")
+    print("Koushik")
     collection.insert_one(value)
     print("Inserted message into MongoDB:", value)
 
