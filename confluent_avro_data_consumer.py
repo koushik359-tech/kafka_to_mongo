@@ -82,6 +82,7 @@ while True:
     print('Successfully consumed record with key {} and value {}'.format(msg.key(), msg.value()))
     
     value=msg.value()
+    print("Hello")
     collection.insert_one(value)
     print("Inserted message into MongoDB:", value)
 
